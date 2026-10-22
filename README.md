@@ -11,17 +11,17 @@ Proyectos pequeños, hechos desde cero para mostrar cómo trabajo: con tests, CI
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://pisada-3d.vercel.app"><img src="https://github.com/Vitomans/configurador-3d/raw/main/docs/demo.gif" alt="Configurador 3D: se cambia el color de cada parte de la zapatilla y el precio se actualiza" width="100%"></a>
+      <a href="https://pisada-3d.vercel.app"><img src="https://github.com/Vitomans/configurador-3d/raw/main/docs/demo.gif" alt="Configurador 3D: se elige una combinación, se cambia la suela tocándola en la zapatilla, se escriben iniciales en el talón y se abre el resumen del pedido" width="100%"></a>
       <h3><a href="https://github.com/Vitomans/configurador-3d">Pisada · Configurador 3D</a></h3>
-      <p>Elige el color y el acabado de cada parte de una zapatilla en 3D, mira cómo cambia el precio y comparte tu diseño con un link.</p>
-      <p><b>Next.js · TypeScript · React Three Fiber · Zustand · Vitest · Playwright</b></p>
+      <p>Diseña una zapatilla en 3D: elige el color y el acabado de cada parte o una combinación lista, ponle tus iniciales en el talón, mírala sobre tu mesa con realidad aumentada y ciérrala con una compra simulada. El precio cambia en vivo y el diseño se comparte con un link.</p>
+      <p><b>Next.js · TypeScript · React Three Fiber · WebXR · Zustand · Vitest · Playwright</b></p>
       <p>▶️ <a href="https://pisada-3d.vercel.app">Probar la demo</a> · 💻 <a href="https://github.com/Vitomans/configurador-3d">Ver el código</a></p>
     </td>
     <td width="50%" valign="top">
       <a href="https://volea-reservas.vercel.app"><img src="https://github.com/Vitomans/agenda-reservas/raw/main/docs/demo.gif" alt="Dos jugadores en la misma cancha: cuando uno reserva, la pantalla del otro se actualiza sola" width="100%"></a>
       <h3><a href="https://github.com/Vitomans/agenda-reservas">Volea · Reservas en tiempo real</a></h3>
-      <p>Reserva de canchas de pádel: cuando alguien reserva, el horario aparece ocupado al instante en todas las pantallas. Con roles de jugador y administrador.</p>
-      <p><b>Express · PostgreSQL · Prisma · JWT · Socket.io · Next.js · Vitest</b></p>
+      <p>Reserva de canchas de pádel, también como invitado: cuando alguien reserva, el horario aparece ocupado al instante en todas las pantallas. Con correos de confirmación, documentación de la API y un panel para el dueño con la ocupación y los ingresos del club.</p>
+      <p><b>Express · PostgreSQL · Prisma · JWT · Socket.io · Next.js · Vitest · Playwright</b></p>
       <p>▶️ <a href="https://volea-reservas.vercel.app">Probar la demo</a> · 💻 <a href="https://github.com/Vitomans/agenda-reservas">Ver el código</a></p>
     </td>
   </tr>
