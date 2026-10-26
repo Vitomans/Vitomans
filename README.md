@@ -18,10 +18,10 @@ Proyectos pequeños, hechos desde cero para mostrar cómo trabajo: con tests, CI
       <p>▶️ <a href="https://pisada-3d.vercel.app">Probar la demo</a> · 💻 <a href="https://github.com/Vitomans/configurador-3d">Ver el código</a></p>
     </td>
     <td width="50%" valign="top">
-      <a href="https://volea-reservas.vercel.app"><img src="https://github.com/Vitomans/agenda-reservas/raw/main/docs/demo.gif" alt="Dos jugadores en la misma cancha: cuando uno reserva, la pantalla del otro se actualiza sola" width="100%"></a>
-      <h3><a href="https://github.com/Vitomans/agenda-reservas">Volea · Reservas en tiempo real</a></h3>
-      <p>Reserva de canchas de pádel, también como invitado: cuando alguien reserva, el horario aparece ocupado al instante en todas las pantallas. Con correos de confirmación, documentación de la API y un panel para el dueño con la ocupación y los ingresos del club.</p>
-      <p><b>Express · PostgreSQL · Prisma · JWT · Socket.io · Next.js · Vitest · Playwright</b></p>
+      <a href="https://volea-reservas.vercel.app"><img src="https://github.com/Vitomans/agenda-reservas/raw/main/docs/asistente.gif" alt="El asistente con IA muestra las horas libres, reserva con la confirmación de la persona y la grilla salta sola a esa hora" width="100%"></a>
+      <h3><a href="https://github.com/Vitomans/agenda-reservas">Volea · Reservas con asistente de IA</a></h3>
+      <p>Reserva de canchas de pádel con un asistente con IA que busca horas libres, responde las dudas del club con sus documentos (RAG) y reserva de verdad, siempre con tu confirmación, probado con evals. Cuando alguien reserva, el horario aparece ocupado al instante en todas las pantallas. Con correos de confirmación, documentación de la API y un panel para el dueño.</p>
+      <p><b>AI SDK · Groq · Gemini · Express · PostgreSQL · Prisma · Socket.io · Next.js · Vitest · Playwright</b></p>
       <p>▶️ <a href="https://volea-reservas.vercel.app">Probar la demo</a> · 💻 <a href="https://github.com/Vitomans/agenda-reservas">Ver el código</a></p>
     </td>
   </tr>
@@ -32,7 +32,7 @@ Proyectos pequeños, hechos desde cero para mostrar cómo trabajo: con tests, CI
 - **Frontend:** interfaces con React / Next.js y TypeScript, responsive y accesibles, con Tailwind CSS.
 - **3D interactivo:** simuladores y visualizaciones en el navegador con Three.js / React Three Fiber, adaptados a pantallas táctiles.
 - **Backend:** APIs REST con Node.js y Express, autenticación JWT con roles y permisos, PostgreSQL con Prisma, tiempo real con Socket.io.
-- **IA aplicada:** integración de modelos de lenguaje (OpenAI, Anthropic, Gemini, Groq, Mistral, DeepSeek) para generar contenido estructurado, validar sus respuestas y usarlas dentro de un producto.
+- **IA aplicada:** asistentes que usan herramientas dentro del producto (con confirmación de la persona antes de actuar), RAG sobre documentos propios y evals para medir si responden bien, con el AI SDK. Integración de modelos de lenguaje (OpenAI, Anthropic, Gemini, Groq, Mistral, DeepSeek) para generar contenido estructurado, validar sus respuestas y usarlas dentro de un producto.
 - **Calidad y despliegue:** tests con Vitest y Playwright, CI con GitHub Actions, Docker, despliegues en Vercel, Render y Railway.
 
 ## 💻 Tecnologías
