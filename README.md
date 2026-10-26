@@ -44,3 +44,4 @@ Proyectos pequeños, hechos desde cero para mostrar cómo trabajo: con tests, CI
 ## 📫 Contacto
 
 - Email: [vitomanmendez@gmail.com](mailto:vitomanmendez@gmail.com)
+- LinkedIn: [linkedin.com/in/vitomans](https://www.linkedin.com/in/vitomans)
